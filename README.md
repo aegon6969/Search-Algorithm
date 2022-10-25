@@ -6,9 +6,12 @@ To write a program to perform linear search and binary search using python progr
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ## Linear Search:
-1.	Start from the leftmost element of array[] and compare k with each element of array[] one by one.
-2.	If k matches with an element in array[] , return the index.
-3.	If k doesn’t match with any of elements in array[], return -1 or element not found.
+### Step1.
+Start from the leftmost element of array[] and compare k with each element of array[] one by one.
+### Step2.
+If k matches with an element in array[] , return the index.
+### Step3.
+If k doesn’t match with any of elements in array[], return -1 or element not found.
 ## Binary Search:
 1.	Set two pointers low and high at the lowest and the highest positions respectively.
 2.	Find the middle element mid of the array ie. arr[(low + high)/2]
@@ -38,8 +41,8 @@ if (result == -1):
 else:
     print(array)
     print("Element found at index: ",result)
-
-
+```
+```python
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by:M.Rishi
 RegisterNumber: 22000276
@@ -61,8 +64,8 @@ if(result==-1):
 else:
     print(array)
     print('Element found at index: ',result)
-
- 
+```
+```python
 Program to find the element in a list using Binary Search (recursive Method).
 Developed by: your name: M.Rishi
 RegisterNumber: 22000276
